@@ -1,5 +1,5 @@
 # Sudan function in Gleam
-The definition of the Sudan function can be found on [[[wikipedia](https://en.wikipedia.org/wiki/Sudan_function)]].
+The definition of the Sudan function can be found on [wikipedia](https://en.wikipedia.org/wiki/Sudan_function).
 To print the value of $F(1,1,1)$ for example you would do
 
 ```gleam
