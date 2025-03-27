@@ -1,20 +1,14 @@
-# sudan
+# Sudan function in Gleam
 
-[![Package Version](https://img.shields.io/hexpm/v/sudan)](https://hex.pm/packages/sudan)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/sudan/)
+To print the value of $F(1,1,1)$ for example
 
-```sh
-gleam add sudan@1
-```
 ```gleam
-import sudan
+import gleam/io
+import internals
 
 pub fn main() {
-  // TODO: An example of the project in use
-}
+   io.println(int.to_string(internals.sudan(1,1,1)))
 ```
-
-Further documentation can be found at <https://hexdocs.pm/sudan>.
 
 ## Development
 
